@@ -24,12 +24,13 @@ function Banner() {
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="relative aspect-square h-[400px] w-full flex items-center justify-center p-6">
+                <CardContent className="relative aspect-square md:h-[400px] w-full flex items-center justify-center p-6">
                   <Image
                     src={image}
                     alt="banner"
                     fill
-                    className="object-cover sm:object-fill select-none"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-fill md:object-fill select-none mx-auto"
                   />
                 </CardContent>
               </Card>

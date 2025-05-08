@@ -57,7 +57,7 @@ export default function RootLayout({
               <header className="fixed flex justify-between items-center shadow-xl bg-white px-20 w-full h-20 z-40">
                 <div className="flex items-center gap-3">
                   <MonitorSmartphone />
-                  <Link href="/" className="font-bold text-2xl">
+                  <Link href="/" className="font-bold md:text-2xl text-xl">
                     Shop App
                   </Link>
                 </div>

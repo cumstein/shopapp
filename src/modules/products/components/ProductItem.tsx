@@ -12,14 +12,14 @@ import { GalleryThumbnails, Heart } from 'lucide-react';
 const ProductItem = (props: { product: any }) => {
   const { product } = props;
   return (
-    <Card className="w-[400px] transform transition-transform duration-300 hover:scale-105">
+    <Card className="w-[400px] transform transition-transform duration-300 hover:scale-105 mb-4">
       <CardHeader>
-        <div className="relative w-full h-[300px]">
+        <div className="relative md:w-full object-fill h-[300px]">
           <Image
             src={product?.images[0]?.image || '/assets/noImage.jpg'}
             alt={product?.name}
             fill
-            className="rounded-t-lg object-cover"
+            className="rounded-t-lg"
           />
         </div>
       </CardHeader>
