@@ -14,12 +14,12 @@ const ProductItem = (props: { product: any }) => {
   return (
     <Card className="w-[400px] transform transition-transform duration-300 hover:scale-105 mb-4">
       <CardHeader>
-        <div className="relative md:w-full object-fill h-[300px]">
+        <div className="relative md:w-full min-h-[300px]">
           <Image
             src={product?.images[0]?.image || '/assets/noImage.jpg'}
             alt={product?.name}
             fill
-            className="rounded-t-lg"
+            className="rounded-t-lg object-contain"
           />
         </div>
       </CardHeader>
