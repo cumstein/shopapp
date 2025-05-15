@@ -28,7 +28,7 @@ const Ads = () => {
       </div>
       <Image
         src="/assets/ads.jpg"
-        width={180}
+        width={220}
         height={200}
         alt="ads"
         className="rounded-tr-lg rounded-br-lg object-fill"
