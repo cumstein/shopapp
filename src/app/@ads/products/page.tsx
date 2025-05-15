@@ -21,17 +21,17 @@ const Ads = () => {
         </CardHeader>
 
         <CardFooter>
-          <Button asChild>
+          <Button>
             <Link href="/products">Products</Link>
           </Button>
         </CardFooter>
       </div>
       <Image
         src="/assets/ads.jpg"
-        width={220}
+        width={200}
         height={200}
         alt="ads"
-        className="rounded-tr-lg rounded-br-lg object-fill"
+        className="rounded-tr-lg rounded-br-lg object-fit"
       />
     </Card>
   );
