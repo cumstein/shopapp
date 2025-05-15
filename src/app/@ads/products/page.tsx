@@ -12,15 +12,15 @@ const Ads = () => {
   return (
     <Card className="w-3/4 flex flex-col-reverse md:flex-row justify-between items-center overflow-hidden p-2">
       <div>
-        <CardHeader className='flex justify-between items-center'>
+        <CardHeader className='flex justify-center items-center'>
           <CardTitle>On Sale products</CardTitle>
-          <CardDescription>
+          <CardDescription className='justify-center items-center'>
             Buy outdated products with 50% discount
           </CardDescription>
         </CardHeader>
 
         <CardFooter>
-          <Button>Buy Now</Button>
+          <Button className='justify-center items-center'>Buy Now</Button>
         </CardFooter>
       </div>
       <Image
