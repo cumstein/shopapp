@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const Ads = () => {
   return (
-    <Card className="w-3/4 flex justify-between items-center overflow-hidden">
+    <Card className="w-3/4 flex justify-between items-center overflow-hidden p-2">
       <div>
         <CardHeader>
           <CardTitle>On Sale products</CardTitle>
