@@ -28,7 +28,7 @@ const Ads = () => {
         width={200}
         height={200}
         alt="ads"
-        className="rounded-tr-lg rounded-br-lg object-fill"
+        className="rounded-tr-lg rounded-br-lg object-cover"
       />
     </Card>
   );
