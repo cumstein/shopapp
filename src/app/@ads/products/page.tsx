@@ -5,9 +5,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui";
-import { Link } from "lucide-react";
-import Image from "next/image";
+} from '@/components/ui';
+import Image from 'next/image';
 
 const Ads = () => {
   return (
@@ -21,9 +20,7 @@ const Ads = () => {
         </CardHeader>
 
         <CardFooter>
-          <Button>
-            <Link href="/products">Products</Link>
-          </Button>
+          <Button>Buy Now</Button>
         </CardFooter>
       </div>
       <Image
@@ -31,7 +28,7 @@ const Ads = () => {
         width={200}
         height={200}
         alt="ads"
-        className="rounded-tr-lg rounded-br-lg object-fit"
+        className="rounded-tr-lg rounded-br-lg object-fill"
       />
     </Card>
   );
