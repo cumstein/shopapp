@@ -10,10 +10,10 @@ import {
   CardContent,
 } from '@/components/ui';
 
-import IMG1 from './image/1.webp';
+import IMG1 from './image/1.png';
 import IMG2 from './image/2.png';
-import IMG3 from './image/3.jpg';
-import IMG4 from './image/4.webp';
+import IMG3 from './image/3.png';
+import IMG4 from './image/4.png';
 import Image from 'next/image';
 
 function Banner() {
