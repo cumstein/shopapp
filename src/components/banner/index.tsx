@@ -24,7 +24,7 @@ function Banner() {
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="relative aspect-square md:h-[400px] w-full flex items-center justify-center p-6">
+                <CardContent className="relative aspect-square md:h-[400px] w-full flex items-center justify-center p-2">
                   <Image
                     src={image}
                     alt="banner"
