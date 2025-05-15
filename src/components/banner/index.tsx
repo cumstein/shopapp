@@ -18,7 +18,7 @@ import Image from 'next/image';
 
 function Banner() {
   return (
-    <Carousel className="w-2xs ">
+    <Carousel className="w-[600px] ">
       <CarouselContent>
         {[IMG1, IMG2, IMG3, IMG4].map((image, index) => (
           <CarouselItem key={index}>
