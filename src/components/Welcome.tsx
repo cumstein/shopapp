@@ -11,7 +11,7 @@ function Welcome() {
         <MonitorSmartphone />
         <h1 className="text-2xl font-bold text-gray-800">Shop App</h1>
       </div>
-      <Button asChild className="mt-6">
+      <Button asChild className="mt-4">
         <Link href="/products">Products</Link>
       </Button>
     </div>
