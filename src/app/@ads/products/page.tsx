@@ -14,13 +14,13 @@ const Ads = () => {
       <div>
         <CardHeader className='flex justify-center items-center'>
           <CardTitle>On Sale products</CardTitle>
-          <CardDescription className='justify-center items-center'>
+          <CardDescription className='mx-auto'>
             Buy outdated products with 50% discount
           </CardDescription>
         </CardHeader>
 
         <CardFooter>
-          <Button className='justify-center items-center'>Buy Now</Button>
+          <Button className='mx-auto'>Buy Now</Button>
         </CardFooter>
       </div>
       <Image
